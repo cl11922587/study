@@ -10,4 +10,4 @@
   let b=2;
 }
 console.log(a);//1
-console.log(b);//b is defined
+console.log(b);//b is not defined
