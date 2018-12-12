@@ -2,10 +2,12 @@
 
 ## let 与 const 命令
 ### let用来声明变量，并且只在let申明的代码块内有效。
+
 例如：
-{
+```{
   var a =1;
   let b=2;
-}/n
-console.log(a);//1
-console.log(b);//b is not defined
+}，，
+console.log(a);//1，，
+console.log(b);//b is not defined，，
+```
