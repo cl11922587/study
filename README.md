@@ -1,14 +1,17 @@
 # 学习笔记
 
-## let 与 const 命令
-### let用来声明变量，并且只在let申明的代码块内有效。
-
-例如：
-```
-{
-  var a =1;
-  let b=2;
+## 函数的扩展
+### 函数参数的默认值
+`
+function demo(x , y = 'world'){
+   console.log(x,y);
 }
-console.log(a);//1  
-console.log(b);//b is not defined
-```
+demo('hello'); //hello
+demo('hello','world');//hello world
+demo('hello','');//hello
+
+`
+
+
+
+
